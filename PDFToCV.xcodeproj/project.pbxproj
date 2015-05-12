@@ -34,6 +34,7 @@
 		53FDC9A51B019175000DD49A /* libpoppler-glib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FDC99C1B019175000DD49A /* libpoppler-glib.dylib */; };
 		53FDC9A61B019175000DD49A /* libpoppler.51.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FDC99D1B019175000DD49A /* libpoppler.51.dylib */; };
 		53FDC9A71B019175000DD49A /* libpoppler.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FDC99E1B019175000DD49A /* libpoppler.dylib */; };
+		53FDC9AA1B019452000DD49A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53FDC9A91B019452000DD49A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +79,7 @@
 		53FDC99D1B019175000DD49A /* libpoppler.51.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpoppler.51.dylib; sourceTree = "<group>"; };
 		53FDC99E1B019175000DD49A /* libpoppler.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpoppler.dylib; sourceTree = "<group>"; };
 		53FDC9A81B019270000DD49A /* EyeSVM.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EyeSVM.pdf; sourceTree = "<group>"; };
+		53FDC9A91B019452000DD49A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		53FDC9551B018A16000DD49A = {
 			isa = PBXGroup;
 			children = (
+				53FDC9A91B019452000DD49A /* README.md */,
 				53FDC9A81B019270000DD49A /* EyeSVM.pdf */,
 				53FDC9681B018FFE000DD49A /* LIB */,
 				53FDC9601B018A16000DD49A /* PDFToCV */,
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FDC9AA1B019452000DD49A /* README.md in Sources */,
 				53FDC9621B018A16000DD49A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
